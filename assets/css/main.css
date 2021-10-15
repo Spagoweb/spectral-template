@@ -2050,14 +2050,14 @@ input, select, textarea {
 			-webkit-transform: rotate(-45deg);
 			-ms-transform: rotate(-45deg);
 			transform: rotate(-45deg);
-			border-radius: 3px;
+			border-radius: 50%;
 			border: solid 2px #fff;
 			display: inline-block;
 			font-size: 1.35em;
-			height: calc(3em + 2px);
-			line-height: 3em;
+			height: calc(4em + 2px);
+			line-height: 4em;
 			text-align: center;
-			width: calc(3em + 2px);
+			width: calc(4em + 2px);
 		}
 
 			.icon.major:before {
@@ -2980,7 +2980,7 @@ input, select, textarea {
 		}
 
 		.wrapper.style3 {
-			background-color: #505393;
+			background-color: #54aeff;
 			color: #d3d4e4;
 		}
 
