@@ -2050,14 +2050,14 @@ input, select, textarea {
 			-webkit-transform: rotate(-45deg);
 			-ms-transform: rotate(-45deg);
 			transform: rotate(-45deg);
-			border-radius: 3px;
+			border-radius: 50%;
 			border: solid 2px #fff;
 			display: inline-block;
 			font-size: 1.35em;
-			height: calc(3em + 2px);
-			line-height: 3em;
+			height: calc(4em + 2px);
+			line-height: 4em;
 			text-align: center;
-			width: calc(3em + 2px);
+			width: calc(4em + 2px);
 		}
 
 			.icon.major:before {
@@ -2980,7 +2980,7 @@ input, select, textarea {
 		}
 
 		.wrapper.style3 {
-			background-color: #505393;
+			background-color: #54aeff;
 			color: #d3d4e4;
 		}
 
@@ -3583,16 +3583,19 @@ input, select, textarea {
 		position: relative;
 		text-align: center;
 	}
+
 	#banner::before{
 		content: '';
 		position: absolute;
-		width: 200px;
+		width: 100px;
 		height: 100%;
 		left: 50px;
 		top: 0;
-		background-color: rgba(255,255,255,.05);
-		transform: skewX(-10deg);
+		background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%); 
+		transform: skewX(-5deg);
 	}
+
 
 		#banner h2 {
 			-moz-transform: scale(1);
@@ -4007,6 +4010,8 @@ input, select, textarea {
 	body.is-mobile.landing #footer {
 		background-color: #1d242a;
 	}
+
 .cicciospillo{
 	background-color: red;
 }
+
