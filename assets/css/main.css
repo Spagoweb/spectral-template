@@ -3584,6 +3584,19 @@ input, select, textarea {
 		text-align: center;
 	}
 
+	#banner::before{
+		content: '';
+		position: absolute;
+		width: 100px;
+		height: 100%;
+		left: 50px;
+		top: 0;
+		background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%); 
+		transform: skewX(-5deg);
+	}
+
+
 		#banner h2 {
 			-moz-transform: scale(1);
 			-webkit-transform: scale(1);
