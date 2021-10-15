@@ -71,7 +71,11 @@ input, select, textarea {
 	-ms-appearance: none;
 	appearance: none;
 }
-
+.cicciospillo{
+	width: 8px;
+	height: 49%;
+	border-radius: 25px;
+}
 /* Basic */
 
 	@-ms-viewport {
