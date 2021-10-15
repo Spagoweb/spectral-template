@@ -3586,12 +3586,13 @@ input, select, textarea {
 	#banner::before{
 		content: '';
 		position: absolute;
-		width: 200px;
+		width: 100px;
 		height: 100%;
 		left: 50px;
 		top: 0;
-		background-color: rgba(255,255,255,.05);
-		transform: skewX(-10deg);
+		 background: rgb(255,255,255);
+background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%); 
+		transform: skewX(-5deg);
 	}
 
 		#banner h2 {
