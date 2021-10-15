@@ -2788,7 +2788,10 @@ input, select, textarea {
 			}
 
 		}
-
+.cicciospillo {
+	background-color: pink;
+	width: 100%;
+}
 /* Wrapper */
 
 	.wrapper {
